@@ -1,0 +1,510 @@
+*{
+    margin: 0;    
+}
+
+#div-1{
+    background-color: #3D5A80;
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;  
+    align-items: center;
+    padding: 10px;
+    padding-top: 15px;
+    
+    border-bottom: 1px solid ;
+    border-color: rgba(0, 0, 0, 0.12);
+}
+
+.navitem{
+    display: flex;
+    gap: 40px;
+    align-items: center;   
+}
+
+
+p{  
+    color: var(--White, #FFF);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+
+.button{
+    padding-right: 81px;
+    display: inline-flex;
+    width: 130px;
+    height: 28px;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: var(--Accent, #EE6C4D);
+}
+
+
+.ayush{
+    padding-right: 570px;
+    padding-left: 81px;
+}
+
+#div-2{
+   display: flex;
+   background: var(--Blue-background, #3D5A80);
+   padding-bottom: 157px;
+}
+
+
+#div-2R{
+    padding: 100px 100px 120px 350px;
+}
+
+h1{
+    padding-top: 150px;
+    padding-left: 160px;
+    color: var(--White, #FFF);
+    font-family: Open Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+#hey{
+    padding-left: 160px;
+   padding-top: 16px;
+}
+
+#b2{
+    margin-left: 160px;
+    margin-top: 24px;
+}
+
+#less{
+    color: #EE6C4D;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#id{
+    color: var(--White, #FFF);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+ 
+#div-3{
+    background-color: #293241;
+    display: flex;
+}
+#div-3R{
+    margin-left: 706px;
+    margin-right: 182px;
+    padding-top: 79px;
+    padding-bottom: 95px;
+}
+
+#i1{
+    position: absolute;
+    padding-top: 108px;
+    padding-left: 206px;
+    z-index: 1;
+}
+
+#i2{
+    position: absolute;
+    padding-left: 220px;
+    padding-top: 330px;
+    z-index: 1;
+}
+
+#ic{
+    position: absolute;
+    padding-left: 356px; 
+    padding-top: 225px; 
+    z-index: 1; 
+} 
+
+#i3{
+    position: absolute;
+    padding-left: 501px;
+    padding-top: 148px;
+    z-index: 1;
+
+}
+
+#i4{
+    position: absolute;
+    padding-left: 465px;
+    padding-top: 360px;
+    
+    z-index: 1;
+}
+
+#green{
+    position: absolute;
+    padding-left: 445px;
+    padding-top: 333px;
+}
+
+#orange{
+    position: absolute;
+    padding-left: 200px;
+    padding-top: 313px;
+}
+
+
+#blue{
+    position: absolute;
+    padding-left: 186px;
+    padding-top: 90px;
+    fill: rgba(38, 77, 228, 0);
+}
+
+#yellow{
+    position: absolute;
+    padding-left: 481px;
+    padding-top: 130px;
+}
+
+#sky{
+    position: absolute;
+    padding-left: 338px;
+    padding-top: 207px;
+}
+
+
+#line3{
+    width: 478px;
+    height: 3px;
+    background: #EE6C4D;
+    margin: 16px 0px;
+}
+
+.aboutme{
+    color: var(--White, #FFF);
+font-family: Open Sans;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%;
+}
+#passion{
+    color: var(--White, #FFF);
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%;
+padding-bottom: 64px;
+}
+
+#div-4{
+    background: #2F3746;
+    display: flex;
+    flex-direction: column;   
+}
+
+#div-4ii{
+    display: flex;
+}
+
+#companies{
+    color: var(--White, #FFF);
+    font-family: Open Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    padding-left: 492px;
+    padding-top: 48px;
+}
+#line4{
+    width: 132px;
+    height: 3px;
+    background: #EE6C4D;
+    margin-left: 617px;
+     margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+#div-4ii{
+    justify-content: space-around;
+    padding-top: 24px;
+    padding-bottom: 54px;
+}
+
+#div-5{
+    background: var(--Dark-blue, #293241);
+}
+
+#div-5a{
+    display: flex;
+    flex-direction: column;
+    padding-left: 158px;
+    padding-top: 34px;
+}
+
+#div-5aa{
+    display: grid;
+    grid-template-rows: 37px 257px 37px 211px;
+    grid-template-columns: 356px 356px 356px;
+    padding-top: 40px;
+}
+
+#ecom{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+#care{
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+#estate{
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+#ball{
+    grid-area: 3/1/4/2;
+}
+
+#perfume{
+    grid-area: 3/2/4/3;
+}
+#bank{
+    grid-area: 3/3/4/4;
+}
+
+#seeMore{
+    color: var(--Accent, #EE6C4D);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+}
+
+#morebtn{
+    border-radius: 5px;
+    border: 1px solid var(--Accent, #EE6C4D);
+    display: flex;
+    width: 130px;
+    height: 28px;
+    padding: 12px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    margin-left: 430px;
+    margin-top: 65px;
+    margin-bottom: 48px;
+}
+
+.div-5p{
+    color: var(--White, #FFF);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 23.4px */
+}
+#line5{
+    width: 187px;
+    height: 3px;
+    background: #EE6C4D;
+    margin-top: 16px;
+}
+
+#div-6{
+    background: #2F3746;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#clientsay{
+    margin-top: 50px;
+}
+
+#line6{
+    width: 157px;
+height: 3px;
+background: #EE6C4D;
+margin-top: 17px;
+}
+
+#div-6H{
+    display: flex;
+    gap: 75px;
+    margin-top: 46px;
+    margin-bottom: 48px;    
+    align-items: center;
+}
+
+.div6photo{
+    width: 475px;
+height: 180px;
+flex-shrink: 0;
+border-radius: 3px;
+background: rgba(0, 0, 0, 0.45);
+
+}
+
+.img6{
+   margin-top: 18px;
+   margin-left: 15px;
+   float: left;
+ 
+}
+
+.name{
+    color: var(--White, #FFF);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 23.4px */
+    margin-top: 17px;
+    margin-left: 65px;
+    
+   
+}
+.rank{
+    color: #C5C5C5;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 18.2px */
+    margin-left: 65px;
+   
+    
+   
+}
+.p6{
+    color: var(--White, #FFF);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 20.8px */
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 25px;
+}
+
+#mdot{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 70px;
+}
+.dot{
+    border-radius: 25px;
+    width: 8px;
+    height: 8px;
+    background-color: #FFF;
+}
+
+#dot1{
+    background-color: #EE6C4D;
+}
+
+
+#div-7{
+    background: var(--Blue-background, #3D5A80);
+    display: flex;
+    flex-direction: column;
+   padding-left: 179px;
+   padding-top: 48px;
+   padding-bottom: 52px;
+}
+
+#div7G{
+    display: grid;
+    grid-template-rows: 48px 180px auto;
+    grid-template-columns: 504px 504px;
+    gap: 17px;
+}
+
+#dname, #dmail, #dmsg{
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.38);
+}
+
+#dmsg{
+    grid-column: span 2;
+}
+
+
+#iname, #imail{ 
+color: rgba(255, 255, 255, 0.70);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 20.8px */
+padding-top: 14px;
+padding-left: 14.5px;
+}
+
+#imsg{  
+    padding-top: 20px;
+padding-left: 15px;
+color: rgba(255, 255, 255, 0.70);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 20.8px */
+}
+
+#line7{
+    width: 300px;
+height: 3px;
+background-color: #EE6C4D;
+margin-top: 17px;
+margin-bottom: 24px;
+}
+
+#div-8{
+    background-color: rgba(41, 50, 65, 1)
+   
+}
+
+#div8{
+    display: flex;
+    height: 120px;
+    align-items: center;
+}
+#ayush2{
+    padding-right: 336px;
+    font-size: 19px;
+}
+
+#copyright{
+    padding-right: 232px;
+    padding-left: 5px;
+}
+
+#fb{
+    padding-left: 11px;
+    padding-right: 13px;
+}
+
+#github{
+    padding-right: 13px;
+}
+
+#connect, #copyright{
+    font-size: 19px;
+}
